@@ -27,7 +27,7 @@
 
 @media only screen and (max-width: 1600px)
 {
-	
+
 }
 
 /************
@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 1440px)
 {
-	
+
 }
 
 /************
@@ -45,7 +45,7 @@
 
 @media only screen and (max-width: 1380px)
 {
-	
+
 }
 
 /************
@@ -156,7 +156,7 @@
 
 @media only screen and (max-width: 1100px)
 {
-	
+
 }
 
 /************
@@ -165,7 +165,7 @@
 
 @media only screen and (max-width: 1024px)
 {
-	
+
 }
 
 /************
@@ -265,7 +265,7 @@
 
 @media only screen and (max-width: 959px)
 {
-	
+
 }
 
 /************
@@ -274,7 +274,7 @@
 
 @media only screen and (max-width: 880px)
 {
-	
+
 }
 
 /************
@@ -283,7 +283,7 @@
 
 @media only screen and (max-width: 768px)
 {
-	
+
 }
 
 /************
@@ -450,7 +450,7 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+
 }
 
 /************
@@ -459,7 +459,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	
+
 }
 
 /************
@@ -468,7 +468,7 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+
 }
 
 /************
@@ -477,5 +477,23 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+
+}
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed
+.video-responsive video{
+position: absolute;
+top: 0;
+left:0;
+width:100%;
+height: 100%px;
 }
