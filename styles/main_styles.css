@@ -1265,8 +1265,8 @@ section
 {
 	position: absolute;
 	top: 70px;
-	right: 123px;
-	width: 367px;
+	right: 150px;
+	width: 400px;
 	height: 341px;
 	background: #FFFFFF;
 	border: solid 2px #637496;
@@ -1274,7 +1274,7 @@ section
 }
 .contact_info_list
 {
-	max-width: 200px;
+	max-width: 300px;
 }
 .contact_info_list li:not(:last-of-type)
 {
